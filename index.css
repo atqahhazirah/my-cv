@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.personal-info-section {
+    background-color: #1d2327;
+}
+
+.personal-info {
+    background-color: #1d2327;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 900px;
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    margin-right: 15px;
+    justify-content: center;
+}
+
+.contact-info a {
+    color: white;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.contact-info p {
+    padding-left: 5px;
+}
+
+.job-title {
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.description {
+    text-align: left;
+    text-align: justify;
+}
+
+.resume {
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 900px;
+    justify-content: center;
+    text-align: justify;
+}
+
+.experience, .education, .projects, .cert {
+    background-color: #075d96;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
